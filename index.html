@@ -9,12 +9,12 @@
   </head>
   <body>
     <!-- <model-viewer> HTML element -->
-    <model-viewer src="rotatingCube.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" id="model-viewer" shadow-intensity="1" autoplay>
+    <model-viewer src="rotatingCube.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" id="model-viewer" shadow-intensity="1">
       <div class="progress-bar hide" slot="progress-bar">
           <div class="update-bar"></div>
       </div>
       <button slot="ar-button" id="ar-button">
-          View in your space
+          Aaja bhai
       </button>
       <div id="ar-prompt">
           <img src="ar_hand_prompt.png">
@@ -22,8 +22,7 @@
     </model-viewer>
     <audio controls autoplay loop id= "sound">
       <source src="AUD-20240305-WA0002.mp3" type="audio/mpeg">
-    </audio>  
-    <model-viewer></model-viewer>
+    </audio>
     <script src="script.js"></script>
     <!-- Loads <model-viewer> for browsers: -->
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.2.0/model-viewer.min.js"></script>
